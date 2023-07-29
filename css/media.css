@@ -85,7 +85,7 @@
     visibility: hidden;
   }
   .works-item:hover .works-hidden {
-    visibility: visiblegir;
+    visibility: visible;
   }
   .works-item_odd .works-hidden {
     transform: translateX(0);
