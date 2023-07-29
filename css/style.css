@@ -243,16 +243,11 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.works-hidden {
-  width: 100%;
-  height: 300px;
-  margin-bottom: 20px;
-}
 .works-item {
   position: relative;
 }
 
-.works-item .works-hidden {
+.works-hidden {
   background-color: #394434;
   align-items: center;
   display: grid;
@@ -260,6 +255,7 @@ h3 {
   top: 0;
   opacity: 0;
   width: 60%;
+  height: 100%;
   padding: 0 15px;
 }
 .works-item_odd .works-hidden {

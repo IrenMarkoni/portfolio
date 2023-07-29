@@ -22,6 +22,9 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .works-wrapper {
+    grid-template-columns: 1fr;
+  }
   .email {
     display: none;
   }
@@ -74,6 +77,22 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .work-title {
+    font-size: 12px;
+  }
+  .works-hidden {
+    width: 100%;
+    visibility: hidden;
+  }
+  .works-item:hover .works-hidden {
+    visibility: visiblegir;
+  }
+  .works-item_odd .works-hidden {
+    transform: translateX(0);
+  }
+  .works-item_even .works-hidden {
+    transform: translateX(0);
+  }
   .navbar-brand {
     display: none;
   }
