@@ -1,0 +1,125 @@
+@media screen and (max-width: 1400px) {
+  .promo-content {
+    padding-top: 250px;
+  }
+  .promo-heading {
+    margin: 0 0 15px 0;
+  }
+  .promo-paragraph {
+    margin: 0 0 90px 0;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .awards-item-paragraph {
+    font-size: 12px;
+  }
+  .works-item {
+    height: 180px;
+  }
+
+  .works-hidden {
+    height: 180px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .email {
+    display: none;
+  }
+  .awards-item-icon {
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+  }
+  .awards-item-icon {
+    font-size: 12px;
+  }
+  .awards-item-paragraph {
+    font-size: 10px;
+  }
+  .works-item {
+    height: 350px;
+  }
+
+  .works-hidden {
+    height: 350px;
+  }
+  .profile-paragraph {
+    line-height: 15px;
+  }
+  .conatcts-content {
+    display: block !important;
+  }
+  .contacts-list {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promo-heading {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .promo-paragraph {
+    font-size: 20px;
+    margin: 0 0 50px 0;
+  }
+  .works-item {
+    height: 300px;
+  }
+
+  .works-hidden {
+    height: 300px;
+  }
+  .conatcts-content {
+    display: flex !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    display: none;
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .about,
+  .skills {
+    padding: 25px 0;
+  }
+  .item-circle {
+    width: 55px;
+    height: 55px;
+    font-size: 13px;
+  }
+  .skills-item {
+    grid-template-columns: 55px 1fr;
+    gap: 10px;
+    margin: 0 10px 15px 0;
+  }
+  .skills-paragraph {
+    line-height: 100%;
+    font-size: 14px;
+  }
+  .conatcts-content {
+    display: block !important;
+  }
+  .contacts-list {
+    text-align: left;
+  }
+  .works-item {
+    height: 180px;
+  }
+
+  .works-hidden {
+    height: 180px;
+  }
+  .awards-contacts {
+    padding-left: 0;
+  }
+  .awards-box {
+    display: block !important;
+  }
+  .awards-item-paragraph {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 320px) {
+}
